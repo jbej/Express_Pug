@@ -1,5 +1,5 @@
 body {
-    background:	#ccd9ff;
+	background:#ccd9ff;
 }
 
 h1 {
@@ -25,16 +25,16 @@ p {
 }
 
 .login-button {
-    margin: 5px;
-    padding: 6px;
-    text-align: center;
-    font-size: 20px;
-    display: inline;
-    background-color: #0040ff;
-    color: #FAEBD7;
-    text-decoration: none; 
+	margin: 5px;
+	padding: 6px;
+	text-align: center;
+	font-size: 20px;
+	display: inline;
+	background-color: #0040ff;
+	color: #FAEBD7;
+	text-decoration: none; 
 }
 
 .login-button:hover {
-    color: red; 
+	color: red; 
 }
