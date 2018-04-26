@@ -3,10 +3,22 @@ body {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	margin: 20px; 
 	color:#0040ff;
+}
+
+a {
+	margin: 20px;
+	padding: 20px;
+	color:#0040ff;
+}
+
+img {
+	margin: 20px;
+	width: 200px;
+	height: 200px;
 }
 
 p {

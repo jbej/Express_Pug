@@ -11,7 +11,10 @@ app.get('/', function(req, res){
 });
 
 app.get('/auth/google', function(req, res){
-    res.render('dynamic');
+    res.render('dynamic', {
+        name:'My dynamic page!',
+        url: "http://www.google.com"
+    });
 });
 
 app.use(function(req, res, next){
