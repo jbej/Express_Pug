@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var path = require('path');
 
 app.set('view engine', 'pug');
 app.set('views', './views');
@@ -10,11 +11,8 @@ app.get('/', function(req, res){
     res.render('index');
 });
 
-app.get('/auth/google', function(req, res){
-    res.render('log', {
-        login: req.query.login,
-        password: req.query.password
-    });
+app.get('/:id', function(req, res){
+    res.send("You are here! " + req.params.id + " " + "Great!!!");
 });
 
 var server = app.listen(3000, 'localhost', function() {
