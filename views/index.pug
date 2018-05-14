@@ -1,0 +1,14 @@
+doctype
+html
+    head
+        title= 'Login'
+        link(rel='stylesheet', href='/static/style.css')
+    body
+        div.container
+            h1 Welome to Google Registration
+            form(action='http://localhost:3000/auth/google/' metod='GET')
+                p Login:
+                    input(typ='text', name='name')
+                p Password:
+                    input(type='text')
+                a.login-button(href='/id') Sing in with Google
